@@ -3,52 +3,80 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Cards</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		/>
+		<title>Slider-JS</title>
 	</head>
 	<body>
 		<div class="container">
-			<div
-				class="slide"
-				style="
-					background-image: url('https://images.unsplash.com/photo-1609951651556-5334e2706168?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
-				"
-			>
-				<h3>Citrus</h3>
+			<div class="sidebar">
+				<div
+					style="
+						background: linear-gradient(229.99deg, #01588b -26%, #01588b 145%);
+					"
+				>
+					.
+					<h1>Snow in the desert</h1>
+					<p>Love, death & robots</p>
+				</div>
+				<div
+					style="
+						background: linear-gradient(215.32deg, #d45c49 -1%, #d45c49 124%);
+					"
+				>
+					<h1>Life Hutch</h1>
+					<p>Love, death & robots</p>
+				</div>
+				<div
+					style="
+						background: linear-gradient(221.87deg, #fcecfd 1%, #fdc5ff 128%);
+					"
+				>
+					<h1>Zima Blue</h1>
+					<p>Love, death & robots</p>
+				</div>
+				<div
+					style="
+						background: linear-gradient(220.16deg, #03342e -8%, #032723 138%);
+					"
+				>
+					<h1>Automated Customer Service</h1>
+					<p>Love, death & robots</p>
+				</div>
 			</div>
-			<div
-				class="slide"
-				style="
-					background-image: url('https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
-				"
-			>
-				<h3>Mojito</h3>
+			<div class="main-slide">
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1516557070061-c3d1653fa646?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+					"
+				></div>
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1559251606-c623743a6d76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+					"
+				></div>
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80');
+					"
+				></div>
+				<div
+					style="
+						background-image: url('https://images.unsplash.com/photo-1547070451-e3857a8ea62a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+					"
+				></div>
 			</div>
-			<div
-				class="slide"
-				style="
-					background-image: url('https://images.unsplash.com/photo-1499638673689-79a0b5115d87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80');
-				"
-			>
-				<h3>Ice tea</h3>
-			</div>
-			<div
-				class="slide"
-				style="
-					background-image: url('https://images.unsplash.com/photo-1527661591475-527312dd65f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2030&q=80');
-				"
-			>
-				<h3>Watermelon & Lime</h3>
-			</div>
-			<div
-				class="slide"
-				style="
-					background-image: url('https://images.unsplash.com/photo-1546173159-315724a31696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
-				"
-			>
-				<h3>Mango</h3>
+			<div class="controls">
+				<button class="down-button">
+					<i class="fas fa-arrow-down"></i>
+				</button>
+				<button class="up-button">
+					<i class="fas fa-arrow-up"></i>
+				</button>
 			</div>
 		</div>
-
-		<script type="module" src="/main.js"></script>
+		<script type="module" src="main.js"></script>
 	</body>
 </html>
